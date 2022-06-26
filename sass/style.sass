@@ -1,0 +1,224 @@
+@font-face
+    font-family: Gilroy-Medium
+    src: url("../fonts/Gilroy-Medium.ttf") format("truetype")
+
+@font-face 
+    font-family: Gilroy-Bold
+    src: url(../fonts/Gilroy-Bold.ttf) format("truetype")
+
+header
+    max-height: 768px
+
+.container 
+    max-width: 944px
+    margin: 0 auto
+    width: 100%
+
+.menu
+    width: 100%
+    border-bottom: solid 2px #828282
+.menu-bar 
+    margin-top: 33px
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    list-style: none
+    
+.menu-bar__item 
+    padding: 5px 10px 31px
+    margin-right: 140px
+    &:last-child
+        margin-right: 0
+
+.menu-bar__link 
+    font-family: Gilroy-Bold
+    font-size: 18px
+    line-height: 40px
+    color:#828282
+    text-decoration: none
+
+.short-info 
+    display: flex
+    flex-direction: column
+    padding: 34px 0 105px
+
+.short-info__description 
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+    flex: 1 0 33.333%
+    padding: 5px
+
+.short-info__name 
+    font-family: Gilroy-Bold
+    font-size: 48px
+    line-height: 100%
+
+.short-info__ability 
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 100%
+    position: relative
+
+.short-info__lang 
+    display: flex
+    position: relative
+    top: -25px
+    right: -10px
+    transform: rotate(270deg)
+    
+.language
+    font-family: Gilroy-Bold
+    font-size: 16px
+    line-height: 100%
+    padding: 5px
+    text-transform: uppercase
+    &>a
+        text-decoration: none
+
+.short-info__lang-ru 
+    &>a
+        color:#828282
+    &::after
+        content: ''
+        position: relative
+        top: 5px
+        padding: 10%
+        border-right: 3px solid black
+
+.short-info__lang-eng 
+    &>a
+     color: black
+
+.short-info__img 
+    padding: 10px
+    margin-top: 50px
+
+
+.about
+    width: 100%
+    min-height: 506px
+    background-color: #F6F6F6
+
+.about__title 
+    margin: 0 auto
+    padding-top: 120px
+
+.title 
+    margin: 0 auto
+    font-family: Gilroy-Bold
+    font-size: 34px
+    line-height: 42px
+    text-align: center
+    color: #070707
+
+.about__text
+    max-width: 485px
+    max-height: 218px
+    margin: 0 auto
+
+.about__text>p
+    margin-top: 35px
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+
+.skills
+    padding: 91px 0 110px 
+
+.skills__subtitle
+    text-align: center
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 22px
+    margin-top: 69px
+
+.skills__ability
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    margin-top: 44px
+
+.skills__item 
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-top: 40px
+
+
+.skills__descr 
+    margin: 23px 0 41px
+    font-family: Gilroy-Bold
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #828282
+
+.portfolio
+    background-color: #F6F6F6
+    padding: 60px 0 96px
+
+.portfolio__title 
+    margin-top: 50px
+
+.portfolio__item 
+    margin: 50px 0
+
+.portfolio__img 
+    margin-top: 50px
+    width: 100%
+
+.portfolio__descr 
+    text-align: center
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+    text-decoration-line: underline
+    margin-top: 45px
+
+.contacts
+    padding: 114px 0 85px
+
+.contacts__subtitle 
+    margin-top: 20px
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+    color: #070707
+
+
+.contacts__button 
+    display: block
+    margin: 30px auto 0
+    width: 181px
+    height: 42px
+    background-color: #070707
+    border-radius: 50px
+
+    font-family: Gilroy-Bold
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+    color: #fff
+
+.contacts__social 
+    margin-top: 81px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.contacts__items
+    display: block
+    margin: 0 30px
+
+.footer__descr
+    font-family: Gilroy-Medium
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #828282
